@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NL:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Pacifico&family=Playwrite+NL:wght@100..400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(imgs/mosaico.jpg);
+    margin: auto;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;   
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.textos{
+    padding:10%;
+    margin-top: -50px;
+    color: rgb(1, 59, 59);
+    font-weight: 900;
+    font-size: 50px;
+    font-family: "Playwrite NL", cursive;
+}
+
+.nomes{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    margin: auto;
+    color:white;
+    font-size: 30px;
+    font-family: "Kaushan Script", cursive;
+}
+
+.botao{
+    height: 50px;
+    color: rgb(1, 59, 59);
+    background-color: aliceblue;
+    align-items: center;
+    border: solid 5px;
+    border-radius: 20px;
+    font-family: "Kaushan Script", cursive;
+    font-size: 30px;
+}
+.botao:hover{
+    color:rgb(246, 250, 250);
+    background-color:rgb(1, 59, 59);
+    font-size: 25px;
+}
+
+.input{
+    border-radius: 20px;
+    color: rgb(1, 59, 59);
+    font-size: 25px;
+    font-family:"Kaushan Script", cursive;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+}
+
+.roda_pe{
+    position: fixed;
+    bottom: 0;
+    color: rgb(1, 59, 59);
+    font-size: 50px;
+    font-family: "Kaushan Script", cursive;
+    font-weight: 500    ;
+}
