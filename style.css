@@ -34,9 +34,8 @@ body{
     display:flex;
     flex-direction:column;
     align-items: center;
-    margin: auto;
     color:white;
-    font-size: 30px;
+    font-size: 1.2rem;
     font-family: "Kaushan Script", cursive;
 }
 
@@ -48,7 +47,7 @@ body{
     border: solid 5px;
     border-radius: 20px;
     font-family: "Kaushan Script", cursive;
-    font-size: 30px;
+    font-size: 1.7rem;
 }
 .botao:hover{
     color:rgb(246, 250, 250);
